@@ -1,0 +1,81 @@
+/* CSS declarations go here */
+.grid-block, .main, .comments li, .comment-form {
+    background: #fff;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+body {
+    background: #eee;
+    color: #666666;
+}
+.navbar { margin-bottom: 10px }
+.navbar .navbar-inner {
+    border-radius: 0px 0px 3px 3px;
+}
+
+.query {
+  width: 110px;
+  margin: 0px 10px 10px 0px;
+  border: 1px solid grey;
+  box-shadow: 0px 0px 1px black;
+  border-radius: 5px;
+  padding: 10px;
+  float: left;
+  height: 110px;
+}
+
+.query:hover {
+  box-shadow: 0px 0px 5px black;
+}
+
+.query a {
+  color: black;
+}
+
+.query a:hover {
+  text-decoration: none;
+}
+
+.query a h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.query-title {
+  font-size: 12px;
+  font-family: serif;
+  text-align: center;
+  height: 40px;
+}
+
+.query-updated-at {
+  font-size: 8px;
+  font-family: serif;
+  text-align: center;
+}
+
+#spinner { height: 300px }
+
+.dropdown-menu span {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    line-height: 20px;
+    color: #bbb;
+    white-space: nowrap;
+}
+.load-more {
+    display: block;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.05);
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+.load-more:hover {
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.1);
+}
